@@ -1,0 +1,8 @@
+- name: Deploy port-test
+  hosts: localhost
+  gather_facts: false
+  connection: local
+  roles:
+  - role: ansibleplaybookbundle.asb-modules
+  - role: port-test-apb
+    playbook_debug: true

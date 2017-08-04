@@ -1,0 +1,16 @@
+name: port-test-apb
+image: eriknelson/port-test-apb
+description: test
+bindable: True
+async: optional
+metadata:
+  displayName: Port Test (APB)
+plans:
+  - name: default
+    description: port test
+    free: true
+    metadata:
+      displayName: Default
+      longDescription: port test
+      cost: $0.00
+    parameters: []

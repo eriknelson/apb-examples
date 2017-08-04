@@ -1,0 +1,6 @@
+---
+MasterUserPassword: supersecret
+DBName: foobar
+rds_endpoint_address: myinstance.123456789012.us-east-1.rds.amazonaws.com
+PortNumber: 3306
+MasterUsername: duder
